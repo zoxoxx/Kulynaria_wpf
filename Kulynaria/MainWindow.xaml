@@ -1,0 +1,19 @@
+﻿<Window x:Class="Kulynaria.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kulynaria"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.464,0.525">
+        <Button Content="Войти" Name="btn_vhod" HorizontalAlignment="Left" Margin="314,272,0,0" VerticalAlignment="Top" Width="153" Click="btn_vhod_Click"/>
+        <Button Content="Зарегистрироваться" Name="btn_reg" HorizontalAlignment="Left" Margin="314,332,0,0" VerticalAlignment="Top" Width="153" Click="btn_reg_Click"/>
+        <Label Content="Нет учетной записи?" HorizontalAlignment="Left" Margin="321,298,0,0" VerticalAlignment="Top" Width="139"/>
+        <Label Content="Логин"  HorizontalAlignment="Left" Margin="278,144,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="279,191,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Center" Name ="tb_login" Margin="0,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,199,0,0" TextWrapping="Wrap" Name="tb_password" Text="" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
